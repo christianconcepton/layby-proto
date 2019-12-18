@@ -43,7 +43,7 @@ export default class calculation extends Component {
           <Col xs={3}>{this.props.state.dCost + this.props.state.eCost}</Col>
         </Row>
         <Row className="justify-content-md-center">
-          <Col xs={3}><a href="/">Go Back</a></Col>
+          <Col xs={3}><a href={window.location.href.split('?')[0]}>Go Back</a></Col>
         </Row>
       </>
     );
